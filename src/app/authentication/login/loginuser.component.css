@@ -1,0 +1,122 @@
+h1{
+  font-size: 1.2rem;
+  color: purple;
+}
+.form-background{
+  background-image: linear-gradient(to right, #FFF2CC,#FFD966,#FFF2CC,#FFD966,#FFF2CC);
+  padding: 30px 30px 30px 30px;
+}
+.label-color{
+  color:purple;
+}
+.image-style{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+.form{
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 60px;
+  padding-top: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 80px;
+}
+.image-position{
+position: absolute;
+top: -20%;
+left: 33%;
+}
+.button-login{
+ background-color: teal;
+  color: white;
+  border-radius:43px 0px 43px 2px;
+  width: 40%;
+  height: 50px;
+  margin-top: 9px;
+}
+.button-login:hover{
+  background-color: rgb(4, 95, 95);
+  transition: 0.8s;
+  transition-timing-function: linear;
+}
+
+@media only screen and (min-width:1400px) {
+  .form-background {
+   margin-top: 100px;
+   padding: 50px 50px 50px 50px;
+  }
+  .image-position{
+    left: 35%;
+    }
+}
+@media only screen and (max-width:786px) {
+  .image-style{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
+  .image-position{
+    top: -15%;
+    left: 42%;
+    }
+    .lebel-input{
+      margin-top: 60px !important;
+    }
+    .button-login{
+       border-radius:43px 0px 43px 2px;
+       width: 90%;
+       height: 40px;
+       margin-top: 9px;
+     }
+    .form{
+      position: absolute;
+      left:13%;
+      margin-top: 100px;
+      margin-bottom: 6px;
+      padding-top: 10px;
+      padding-left: 5px;
+      padding-right: 5px;
+      padding-bottom: 60px;
+    }
+    .form-background{
+      position: relative;
+      height: 600px !important;
+      width: 90% !important;
+      margin-top: 20px;
+      padding: 20px 0px 20px 0px;
+    }
+}
+
+@media only screen and (max-width:576px) {
+  .image-style{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  .image-position{
+    top: -10%;
+    left: 40%;
+    }
+  .button-login{
+       border-radius:43px 0px 43px 2px;
+       width: 90%;
+       height: 40px;
+       margin-top: 9px;
+     }
+  .form{
+      margin-top: 100px;
+      margin-bottom: 6px;
+      padding-top: 10px;
+      padding-left: 5px;
+      padding-right: 5px;
+      padding-bottom: 50px;
+    }
+  .form-background{
+      height: 600px !important;
+      width: 90% !important;
+      margin-top: 30px;
+      padding: 20px 0px 20px 0px;
+    }
+}

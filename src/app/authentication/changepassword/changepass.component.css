@@ -1,0 +1,35 @@
+h1{
+  font-size: 1.2rem;
+  color: purple;
+}
+.label-color{
+  color:purple;
+}
+.breadcum-color{
+  color:black;
+}
+.button-style{
+  background-color: rgb(157, 8, 157);
+  border:1px solid rgb(157, 8, 157);
+  color:white;
+ width: 25%;
+ border-radius:43px 0px 43px 2px;
+}
+.button-style:hover{
+  background-color: purple;
+  transition: 0.8s;
+  transition-timing-function: linear;
+}
+.button-style2{
+  background-color: #FFD966;
+  border:1px solid #FFD966;
+  color:purple;
+ width: 25%;
+ border-radius:43px 0px 43px 2px;
+}
+.button-style2:hover{
+  background-color: #f3c22e;
+  transition: 0.8s;
+  transition-timing-function: linear;
+}
+
